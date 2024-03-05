@@ -1,5 +1,5 @@
 # Format Options
-A collection of RegEx codes and associated English descriptions when adding data format overlays to OCA schemas.
+A collection of RegEx codes and other format options with the associated English descriptions when adding data format overlays to OCA schemas.
 
 # OCA and the format overlay
 
@@ -8,3 +8,7 @@ In Overlays Capture Architecture (OCA) the format for correct data is expressed 
 # Suggest or request a RegEx entry.
 
 If you would like to see a format entry in these tables that we don't currently support, raise an issue here in GitHub or [contact us at Agri-food Data Canada](https://agrifooddatacanada.ca/contact-us/).
+
+# Development Status
+
+This data is created with support by [Agri-food Data Canada](https://agrifooddatacanada.ca/), funded by [CFREF](https://www.cfref-apogee.gc.ca/) through the [Food from Thought grant](https://foodfromthought.ca/) held at the [University of Guelph](https://www.uoguelph.ca/). Currently, we do not provide any warranty of any kind regarding the accuracy, security, completeness or reliability of this data or any of its parts.
