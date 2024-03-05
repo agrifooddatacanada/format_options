@@ -13,3 +13,7 @@
 "YYYY-MM-DDTHH:MM:SS±hh:mm: Date and Time Combined (with Timezone Offset)",
 "PnD: accumulated days (n days)",
 "PTnHmM: accumulated hours and minutes (n hours, m minutes)",
+"DD/MM/YYYY: day, month, year",
+"MM/DD/YYYY: month, day, year",
+"DDMMYYYY: day, month, year",
+"MMDDYYYY: month, day, year",
