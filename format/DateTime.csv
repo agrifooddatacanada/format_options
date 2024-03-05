@@ -1,1 +1,15 @@
-
+"description","format rule"
+"YYYY-MM-DD: year month day",regex
+"YYYYMMDD: year month day",
+"YYYY-MM: year month",
+"YYYY-Www: year week (e.g. W01)",
+"YYYYWww: year week (e.g. W01)",
+"YYYY-DDD: Ordinal date (day number from beginning of the year)",
+"YYYYDDD: Ordinal date (day number from beginning of the year)",
+"YYYY: year",
+"MM: month",
+"DD: day",
+"YYYY-MM-DDTHH:MM:SSZ: Date and Time Combined (UTC)",
+"YYYY-MM-DDTHH:MM:SS±hh:mm: Date and Time Combined (with Timezone Offset)",
+"PnD: accumulated days (n days)",
+"PTnHmM: accumulated hours and minutes (n hours, m minutes)",
