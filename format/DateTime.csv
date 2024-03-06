@@ -1,19 +1,19 @@
 "description","format rule"
-"YYYY-MM-DD: year month day",regex
-"YYYYMMDD: year month day",
-"YYYY-MM: year month",
-"YYYY-Www: year week (e.g. W01)",
-"YYYYWww: year week (e.g. W01)",
-"YYYY-DDD: Ordinal date (day number from beginning of the year)",
-"YYYYDDD: Ordinal date (day number from beginning of the year)",
-"YYYY: year",
-"MM: month",
-"DD: day",
-"YYYY-MM-DDTHH:MM:SSZ: Date and Time Combined (UTC)",
-"YYYY-MM-DDTHH:MM:SS±hh:mm: Date and Time Combined (with Timezone Offset)",
-"PnD: accumulated days (n days)",
-"PTnHmM: accumulated hours and minutes (n hours, m minutes)",
-"DD/MM/YYYY: day, month, year",
-"MM/DD/YYYY: month, day, year",
-"DDMMYYYY: day, month, year",
-"MMDDYYYY: month, day, year",
+"YYYY-MM-DD: year month day","^(?:(?:19|20)\d{2})-(?:0[1-9]|1[0-2])-(?:0[1-9]|[1-2]\d|3[0-1])$"
+"YYYYMMDD: year month day","^(?:(?:19|20)[0-9]{2})(?:0[1-9]|1[012])(?:0[1-9]|[12][0-9]|3[01])$"
+"YYYY-MM: year month","^(?:(?:19|20)[0-9]{2})-(?:0[1-9]|1[012])(?:-(?:0[1-9]|[12][0-9]|3[01]))?$"
+"YYYY-Www: year week (e.g. W01)","^(?:(?:19|20)\d{2})-W(?:0[1-9]|[1-4][0-9]|5[0-3])$"
+"YYYYWww: year week (e.g. W01)","^(?:(?:19|20)\d{2})W(?:0[1-9]|[1-4][0-9]|5[0-3])$"
+"YYYY-DDD: Ordinal date (day number from beginning of the year)","^(?:(?:19|20)\d{2})-(?:0[1-9]|[1-2]\d{2}|3[0-5]\d|36[0-6])$"
+"YYYYDDD: Ordinal date (day number from beginning of the year)","^(?:(?:19|20)\d{2})(?:0[1-9]|[1-2]\d{2}|3[0-5]\d|36[0-6])$"
+"YYYY: year","^(?:19|20)\d{2}$"
+"MM: month","^(0[1-9]|1[0-2])$"
+"DD: day","^(0[1-9]|[1-2][0-9]|3[01])$"
+"YYYY-MM-DDTHH:MM:SSZ: Date and Time Combined (UTC)","^(?:\d{4})-(?:0[1-9]|1[0-2])-(?:0[1-9]|[1-2][0-9]|3[01])T(?:[01][0-9]|2[0-3]):(?:[0-5][0-9]):(?:[0-5][0-9])Z$"
+"YYYY-MM-DDTHH:MM:SS±hh:mm: Date and Time Combined (with Timezone Offset)","^(?:\d{4})-(?:0[1-9]|1[0-2])-(?:0[1-9]|[1-2][0-9]|3[01])T(?:[01][0-9]|2[0-3]):(?:[0-5][0-9]):(?:[0-5][0-9])(?:[+-](?:0[0-9]|1[0-4]):[0-5][0-9])$"
+"PnD: accumulated days (n days)","^P\d+D$"
+"PTnHmM: accumulated hours and minutes (n hours, m minutes)","^PT(?:\d{1,2}H)?(?:\d{2}M)?$"
+"DD/MM/YYYY: day, month, year","^(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[012])/(19[0-9]{2}|20[0-1][0-9])$"
+"MM/DD/YYYY: month, day, year","^(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])/(19[0-9]{2}|20[0-1][0-9])$"
+"DDMMYYYY: day, month, year","^(?:(?:3[01]|[012]\d|3[1-6])(?:0[13578]|1[02])|(?:2[0-8]|[012]?\d)(?:02)(\d{4}))$"
+"MMDDYYYY: month, day, year","^(?:(?:0[13578]|1[02])(?:[012]?\d|3[01])|(?:0[469]|11)(?:[012]?\d|30))(\d{2})(\d{4})$"
