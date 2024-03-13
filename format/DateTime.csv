@@ -13,7 +13,7 @@
 "YYYY-MM-DDTHH:MM:SS±hh:mm: Date and Time Combined (with Timezone Offset)","/^(?:\d{4})-(?:0[1-9]|1[0-2])-(?:0[1-9]|[1-2][0-9]|3[01])T(?:[01][0-9]|2[0-3]):(?:[0-5][0-9]):(?:[0-5][0-9])(?:[+-](?:0[0-9]|1[0-4]):[0-5][0-9])$/gm"
 "PnD: accumulated days (n days)","/^P\d+D$/gm"
 "PTnHmM: accumulated hours and minutes (n hours, m minutes)","/^PT(?:\d{1,2}H)?(?:\d{2}M)?$/gm"
-"DD/MM/YYYY: day, month, year","/(0[1-9]|[12][0-9]|3[01])\/(0[1-9]|1[1,2])\/(19|20)\d{2}/gm"
+"DD/MM/YYYY: day, month, year","/(0[1-9]|[12][0-9]|3[01])\/(0[1-9]|1[0,2])\/(19|20)\d{2}$/gm"
 "MM/DD/YYYY: month, day, year","/^(0[1-9]|1[0-2])\/(0[1-9]|[12][0-9]|3[01])\/(19|20)\d{2}$/gm"
 "DDMMYYYY: day, month, year","/^(0[1-9]|[12]\d|3[01])(0[1-9]|1[0-2])(19|20)\d{2}$/gm"
 "MMDDYYYY: month, day, year","/^(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])(19|20)\d{2}$/gm"
