@@ -14,6 +14,8 @@
 | ISO: YYYY-MM-DDTHH:MM:SS±hh:mm: Date and Time Combined (with Timezone Offset) | /^(?:\\d{4})-(?:0[1-9]\|1[0-2])-(?:0[1-9]\|[1-2][0-9]\|3[01])T(?:[01][0-9]\|2[0-3]):(?:[0-5][0-9]):(?:[0-5][0-9])(?:[+-](?:0[0-9]\|1[0-4]):[0-5][0-9])$/gm |
 | ISO: PnD: accumulated days (n days)                   | /^P\\d+D$/gm                                                                                      |
 | ISO: PnYnMnDTnHnMnS :durations e.g. P3Y6M4DT12H30M5S | /^P(?!$)((\d+Y)\|(\d+\.\d+Y$))?((\d+M)\|(\d+\.\d+M$))?((\d+W)\|(\d+\.\d+W$))?((\d+D)\|(\d+\.\d+D$))?(T(?=\d)((\d+H)\|(\d+\.\d+H$))?((\d+M)\|(\d+\.\d+M$))?(\d+(\.\d+)?S)?)??$/gm                                                             |
+| ISO: HH:MM: hour, minutes in 24 hour notation              | /^([01][0-9]\|2[0-3]):[0-5][0-9]$/gm                                                               |
+| ISO: HH:MM:SS: hour, minutes, seconds in 24 hour notation | /^([01][0-9]\|2[0-3]):[0-5][0-9]:[0-5][0-9]$/gm |
 | DD/MM/YYYY: day, month, year                          | /(0[1-9]\|[12][0-9]\|3[01])\\/(0[1-9]\|1[0,2])\\/(19\|20)\\d{2}$/gm                                      |
 | DD/MM/YY: day, month, year                            | /^(0[1-9]\|[12][0-9]\|3[01])\\/(0[1-9]\|1[0-2])\\/\d{2}$/gm                                             |
 | MM/DD/YYYY: month, day, year                          | /^(0[1-9]\|1[0-2])\\/(0[1-9]\|[12][0-9]\|3[01])\\/(19\|20)\\d{2}$/gm                                      |
@@ -21,4 +23,3 @@
 | MMDDYYYY: month, day, year                            | /^(0[1-9]\|1[0-2])(0[1-9]\|[12]\\d\|3[01])(19\|20)\\d{2}$/gm                                             |
 | YYYYMMDD: year, month, day                            | /^(19\|20)\\d{2}(0[1-9]\|1[0-2])(0[1-9]\|[12]\\d\|3[01])$/gm                                              |
 | H:MM or HH:MM: hour, minutes AM/PM                    | /^(12\|0?[1-9]\|1[0-2]):[0-5][0-9] (AM\|PM\|am\|pm)$/gm                                                  |
-| HH:MM: hour, minutes in 24 hour notation              | /^([01][0-9]\|2[0-3]):[0-5][0-9]$/gm                                                               |
