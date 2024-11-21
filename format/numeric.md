@@ -1,4 +1,4 @@
-| Description                                                      | Format Rule                                                                                        |
-|------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| any integer or decimal number, may begin with + or -            | /^[-+]?\\d*\\.?\\d+$/gm                                                                             |
-| any integer                                                      | /^-?[0-9]+$/gm                                                                                      |
+| Description-en                                                  | Description-fr                             | Format Rule                                                                                        |
+|-----------------------------------------------------------------|-------------------------------------------|---------------------------------------------------------------------------------------------------|
+| any integer or decimal number, may begin with + or -            | tout entier ou nombre décimal, peut commencer par + ou - | /^[-+]?\\d*\\.?\\d+$/gm                                                                             |
+| any integer                                                     | tout entier                               | /^-?[0-9]+$/gm                                                                                      |
