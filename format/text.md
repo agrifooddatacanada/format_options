@@ -14,4 +14,10 @@
 | Phone number                                                    | Numéro de téléphone                        | \\+?\\(?\\d{2,4}\\)?[\\d\\s-]{3,}                                              |
 | Latitude in formats S30°15'45.678" or N12°30.999"	              | Latitude aux formats S30°15'45.678" ou N12°30.999" | ^[NS]-?(?:[0-8]?\\d\|90)°(?:\\d+(?:\\.\\d+)?)(?:'(\\d+(?:\\.\\d+)?)")?$ |
 | Longitude in formats E30°15'45.678" or W90°00.000"	            | Longitude aux formats E30°15'45.678" ou W90°00.000" | ^[WE]-?(?:[0-8]?\\d\|90)°(?:\\d+(?:\\.\\d+)?)(?:'(\\d+(?:\\.\\d+)?)")?$ |
+| DNA: (ATGC) | DNA: (ATGC) | ^[ATGC]+$
+| DNA: (ATGCRYSWKMBDHVN) | DNA: (ATGCRYSWKMBDHVN) | ^[ATGCRYSWKMBDHVN]+$
+| RNA: (AUGC) | RNA: (AUGC) | ^[AUGC]+$
+| RNA: (AUGCRYSWKMBDHVN) | RNA: (AUGCRYSWKMBDHVN) | ^[AUGCRYSWKMBDHVN]+$
+| Protein: (ACDEFGHIKLMNPQRSTVWY) | Protein: (ACDEFGHIKLMNPQRSTVWY) | ^[ACDEFGHIKLMNPQRSTVWY]+$
+| Protein: (ACDEFGHIKLMNPQRSTVWYBZJXUO) | Protein: (ACDEFGHIKLMNPQRSTVWYBZJXUO) | ^[ACDEFGHIKLMNPQRSTVWYBZJXUO]+$
  
